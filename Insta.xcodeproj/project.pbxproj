@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B203C18F25DDA8BD00489425 /* ContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203C18D25DDA8BD00489425 /* ContainerCell.swift */; };
+		B203C19025DDA8BD00489425 /* ContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B203C18E25DDA8BD00489425 /* ContainerCell.xib */; };
+		B203C19525DDA97600489425 /* StoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203C19325DDA97600489425 /* StoryCollectionCell.swift */; };
+		B203C19625DDA97600489425 /* StoryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B203C19425DDA97600489425 /* StoryCollectionCell.xib */; };
 		B2D9031525DDA23D006A72A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9031425DDA23D006A72A9 /* AppDelegate.swift */; };
 		B2D9031725DDA23D006A72A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9031625DDA23D006A72A9 /* SceneDelegate.swift */; };
 		B2D9031925DDA23D006A72A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9031825DDA23D006A72A9 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B203C18D25DDA8BD00489425 /* ContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCell.swift; sourceTree = "<group>"; };
+		B203C18E25DDA8BD00489425 /* ContainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerCell.xib; sourceTree = "<group>"; };
+		B203C19325DDA97600489425 /* StoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionCell.swift; sourceTree = "<group>"; };
+		B203C19425DDA97600489425 /* StoryCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionCell.xib; sourceTree = "<group>"; };
 		B2D9031125DDA23D006A72A9 /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D9031425DDA23D006A72A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D9031625DDA23D006A72A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B203C19225DDA8C100489425 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				B203C18D25DDA8BD00489425 /* ContainerCell.swift */,
+				B203C18E25DDA8BD00489425 /* ContainerCell.xib */,
+				B203C19325DDA97600489425 /* StoryCollectionCell.swift */,
+				B203C19425DDA97600489425 /* StoryCollectionCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		B203C19925DDC36100489425 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		B2D9030825DDA23D006A72A9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +82,8 @@
 		B2D9031325DDA23D006A72A9 /* Insta */ = {
 			isa = PBXGroup;
 			children = (
+				B203C19925DDC36100489425 /* Mock */,
+				B203C19225DDA8C100489425 /* CustomCell */,
 				B2D9031425DDA23D006A72A9 /* AppDelegate.swift */,
 				B2D9031625DDA23D006A72A9 /* SceneDelegate.swift */,
 				B2D9031825DDA23D006A72A9 /* ViewController.swift */,
@@ -125,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D9032125DDA23F006A72A9 /* LaunchScreen.storyboard in Resources */,
+				B203C19625DDA97600489425 /* StoryCollectionCell.xib in Resources */,
+				B203C19025DDA8BD00489425 /* ContainerCell.xib in Resources */,
 				B2D9031E25DDA23F006A72A9 /* Assets.xcassets in Resources */,
 				B2D9031C25DDA23D006A72A9 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B203C19525DDA97600489425 /* StoryCollectionCell.swift in Sources */,
 				B2D9031925DDA23D006A72A9 /* ViewController.swift in Sources */,
+				B203C18F25DDA8BD00489425 /* ContainerCell.swift in Sources */,
 				B2D9031525DDA23D006A72A9 /* AppDelegate.swift in Sources */,
 				B2D9031725DDA23D006A72A9 /* SceneDelegate.swift in Sources */,
 			);
